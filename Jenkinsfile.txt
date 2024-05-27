@@ -1,0 +1,16 @@
+pipeline {         --declarative pipeline method
+    agent any
+
+    stages {
+        stage('Design') {
+            steps {
+                echo 'Design A Concept Car'
+            }
+        }
+         stage('Build') {
+            steps {
+                echo 'Build A Concept Car'
+            }
+        }
+    }
+}
