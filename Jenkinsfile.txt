@@ -1,16 +1,12 @@
-pipeline {         
+pipeline {
     agent any
-
     stages {
-        stage('Design') {
+        stage('Hello') {
             steps {
-                echo 'Design A Concept Car'
-            }
-        }
-         stage('Build') {
-            steps {
-                echo 'Build A Concept Car'
+                echo 'Hello World'
             }
         }
     }
+}
+
 }
