@@ -1,4 +1,4 @@
-pipeline {         --declarative pipeline method
+pipeline {         
     agent any
 
     stages {
